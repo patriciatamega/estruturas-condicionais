@@ -1,20 +1,20 @@
 <?php
 
-/* for ($i=date("Y"); $i < date("Y")-100; $i--) {
+/* for ($i=date("Y"); $i > date("Y")-100; $i--) {
 
-  echo $i . <"br">;
+  echo $i . "<br>";
 
 } */
 
-echo <"select">;
+echo "<select>";
 
-for ($i=date("Y"); $i < date("Y")-100; $i--) {
+for ($i=date("Y"); $i >= date("Y")-100; $i--) {
 
   echo '<option value="'.$i.'">'.$i.'<option>';
   
 }
 
-echo </"select">;
+echo "</select>"
 
 
 ?>
