@@ -10,7 +10,7 @@
 
 for ($i = 0; $i <= 10; $i++) {
     
-    if ($1 > 200 && $i < 800) continue;
+    if ($i > 200 && $i < 800) continue;
     
     if ($i === 900) break;
 
