@@ -8,9 +8,9 @@
 
 <?php
 
-if (isset($_GET)){
+if (isset($_GET)) {
 
-  foreach ($_GET as $key =>value) {
+  foreach ($_GET as $key => $value) {
   
     echo "Nome do campo: " . $key . "<br>";
   
